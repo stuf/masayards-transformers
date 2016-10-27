@@ -1,24 +1,26 @@
 {
   "name": "masayards-transformers",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "output"
-  ],
-  "dependencies": {
-    "purescript-console": "^1.0.0"
-  },
-  "devDependencies": {
-    "purescript-psci-support": "^1.0.0"
-  },
   "version": "0.1.0",
   "description": "This repository contains a set of game event data handlers for the Dockyard app, or currently known as \"Project Masayards\".",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "url": "git+https://github.com/stuf/masayards-transformers.git",
     "type": "git"
   },
   "author": "Stefan Rimaila <stefan@rimaila.fi> (https://stuf.github.io)",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stuf/masayards-transformers/issues"
+  },
+  "homepage": "https://github.com/stuf/masayards-transformers#readme",
+  "devDependencies": {
+    "pulp": "^9.0.1",
+    "rimraf": "^2.5.4"
+  }
 }
